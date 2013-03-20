@@ -45,3 +45,7 @@ map <S-l> :tabn<CR>
 map <C-b>n :bn<CR>
 map <C-b>p :bp<CR>
 
+" Highlight
+set cursorline
+highlight cursorline cterm=bold
+"highlight linenr ctermfg=darkcyan
