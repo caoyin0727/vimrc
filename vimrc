@@ -33,6 +33,7 @@ set expandtab
 %retab
 set visualbell
 set wildignore=*.bak,*.o,*.e,*~
+set completeopt=longest,menu
 
 highlight MatchParen ctermbg=blue guibg=lightyellow
 
@@ -49,3 +50,4 @@ map <C-b>p :bp<CR>
 set cursorline
 highlight cursorline cterm=bold
 "highlight linenr ctermfg=darkcyan
+
